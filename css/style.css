@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.container{
+    background-image: url('../assets/katarzyna-pe-lgpQSEQGBRU-unsplash.jpg');
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15vh;
+    background-color: #dddddd;
+    background-blend-mode: multiply;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.countdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrapper{
+    text-align: center;
+    margin: 30px 30px;
+    
+}
+
+.wrapper .key{
+    font-size: 3em;
+}
+
+.wrapper .value{
+    font-size: 6em;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .title{
+        font-size: 3em;
+    }
+    
+    .wrapper .key{
+        font-size: 1.5em;
+    }
+    
+    .wrapper .value{
+        font-size: 3em;
+    }
+}
+
+
+
